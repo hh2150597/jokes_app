@@ -60,3 +60,13 @@ My Jokes is a web application built with Django that allows users to register, l
  - **Django:** Python web framework used for building the application.
  - **HTML/CSS:** Frontend markup and styling.
  - **Requests:** Python library used for making HTTP requests to fetch jokes from the API.
+
+## Screenshots
+ - **Signup:**
+      ![Signup Page](snippets/signup.png)
+ - **Login:**
+      ![Login Page](snippets/login.png)
+ - **Home:**
+      ![Home Page](snippets/home.png)
+ - **Joke Display:**
+      ![Joke Display Page](snippets/joke.png)
