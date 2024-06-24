@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joke</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <!-- <script src="{% static 'js/scripts.js' %}"></script> -->
+</head>
+<body>
+    <h2>Here's a joke for you:</h2>
+    <p>{{ joke.setup }}</p>
+    <p>{{ joke.punchline }}</p>
+    <a href="{% url 'home' %}">Back to home</a>
+</body>
+</html>
